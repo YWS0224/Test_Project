@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="936ec572-db2d-40d9-8424-8d70abe6f246" name="Default Changelist" comment="添加数据库  和数据迁移">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e39ebc08-9f5c-452f-bc4a-a0da41383b18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e39ebc08-9f5c-452f-bc4a-a0da41383b18.xml" afterDir="false" />
+    <list default="true" id="936ec572-db2d-40d9-8424-8d70abe6f246" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goods/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/type/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/type/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/type/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goods/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/goods/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/type/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/type/migrations/0001_initial.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,20 +48,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goods/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="198">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/type/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <state relative-caret-position="72">
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestProject/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -89,9 +100,9 @@
         <option value="$PROJECT_DIR$/type/templates/Index.html" />
         <option value="$PROJECT_DIR$/TestProject/settings.py" />
         <option value="$PROJECT_DIR$/TestProject/__init__.py" />
-        <option value="$PROJECT_DIR$/goods/models.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/type/models.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/goods/models.py" />
       </list>
     </option>
   </component>
@@ -215,6 +226,7 @@
       <workItem from="1545985875504" duration="1268000" />
       <workItem from="1546074947218" duration="682000" />
       <workItem from="1546132201018" duration="3638000" />
+      <workItem from="1546137157120" duration="832000" />
     </task>
     <task id="LOCAL-00001" summary="添加类型应用">
       <created>1545879777488</created>
@@ -237,11 +249,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546136341005</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加数据库  和数据迁移">
+      <created>1546137372595</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1546137372595</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12503000" />
+    <option name="totallyTimeSpent" value="13335000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -254,11 +273,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15900277" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16066483" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32972974" />
       <window_info anchor="bottom" id="manage.py@TestProject" order="0" visible="true" weight="0.3718919" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
@@ -273,11 +292,12 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32972974" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32972974" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info active="true" anchor="right" id="Database" order="4" visible="true" weight="0.26759002" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.18781163" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,13 +323,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestProject/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/type/templates/Index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -317,24 +330,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goods/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e39ebc08-9f5c-452f-bc4a-a0da41383b18/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://e39ebc08-9f5c-452f-bc4a-a0da41383b18/schema/goodsManage/table/goods_goods">
+    <entry file="das://e39ebc08-9f5c-452f-bc4a-a0da41383b18/schema/goodsManage/table/goods_goods" />
+    <entry file="das://e39ebc08-9f5c-452f-bc4a-a0da41383b18/schema/goodsManage/table/type_goodstype" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/be7f7357-4f37-4cfe-94ce-74c32e6d72f5/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestProject/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://be7f7357-4f37-4cfe-94ce-74c32e6d72f5/schema/goodsManage/table/type_goodstype">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="das://e39ebc08-9f5c-452f-bc4a-a0da41383b18/schema/goodsManage/table/type_goodstype">
+    <entry file="das://be7f7357-4f37-4cfe-94ce-74c32e6d72f5/schema/goodsManage/table/goods_goods">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -343,8 +361,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/type/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        <state relative-caret-position="72">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
