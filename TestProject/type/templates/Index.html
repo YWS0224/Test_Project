@@ -32,7 +32,7 @@
     .type {
         width: 20%;
         float: left;
-        background-color: blue;
+        background-color: yellow;
         height: 100%;
         text-align: center;
         padding-top: 50px;
@@ -56,6 +56,10 @@
         width: 80%;
         line-height: 80px;
     }
+
+    .goods ul li{
+        list-style: none;
+    }
 </style>
 <body>
 <div class="title">
@@ -67,7 +71,9 @@
     <div class="type">
         <ul>
             {% for T in Filtertype %}
-                <li>{{ T.typeName }}</li>
+                <li>
+                    <a href="{% url 'l2:findgoods' T.id %}">{{ T.typeName }}</a>
+                </li>
             {% endfor %}
         </ul>
     </div>
@@ -75,21 +81,16 @@
 
     <div class="goods">
         <table>
-            <tr>
-                <td>132132</td>
-                <td>132132</td>
-                <td>132132</td>
-            </tr>
-            <tr>
-                <td>132132</td>
-                <td>132132</td>
-                <td>132132</td>
-            </tr>
-            <tr>
-                <td>132132</td>
-                <td>132132</td>
-                <td>132132</td>
-            </tr>
+        <tr>
+            {% for fgood in fgoods %}
+                <td>
+                    <ul>
+                        <li>商品名称：<strong>{{ fgood.goodName }}</strong></li>
+                        <li>商品价格：<strong>{{ fgood.goodPrice}}</strong></li>
+                    </ul>
+                </td>
+            {% endfor %}
+        </tr>
         </table>
     </div>
 </div>
