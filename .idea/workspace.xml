@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d3fabe1-271b-4e39-84dd-52bb101622c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/TestProject/type/templates/123123.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/type/templates/123123.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject/type/templates/123123.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject/type/templates/fjdsifhsidf.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestProject/type/templates/qweqwe.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,10 +16,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TestProject/type/templates/123123.html">
+        <entry file="file://$PROJECT_DIR$/TestProject/type/templates/Index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            <state relative-caret-position="252">
+              <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -41,6 +44,7 @@
         <option value="$PROJECT_DIR$/TestProject/type/templates/1032.html" />
         <option value="$PROJECT_DIR$/TestProject/TestProject/settings.py" />
         <option value="$PROJECT_DIR$/TestProject/type/templates/123123.html" />
+        <option value="$PROJECT_DIR$/TestProject/type/templates/qweqwe.html" />
       </list>
     </option>
   </component>
@@ -120,7 +124,7 @@
       <workItem from="1545879664273" duration="49000" />
       <workItem from="1545985813654" duration="3300000" />
       <workItem from="1546046177835" duration="3380000" />
-      <workItem from="1546051663473" duration="1266000" />
+      <workItem from="1546051663473" duration="1586000" />
     </task>
     <task id="LOCAL-00001" summary="添加1032html">
       <created>1545986106963</created>
@@ -136,17 +140,23 @@
       <option name="project" value="LOCAL" />
       <updated>1546051694443</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="又添加了一个html">
+      <created>1546074718463</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1546074718464</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7995000" />
+    <option name="totallyTimeSpent" value="8315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2465374" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2465374" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -159,7 +169,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" side_tool="true" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -175,7 +185,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加1032html" />
     <MESSAGE value="添加html" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加html" />
+    <MESSAGE value="又添加了一个html" />
+    <option name="LAST_COMMIT_MESSAGE" value="又添加了一个html" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TestProject/TestProject/settings.py">
@@ -185,18 +196,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestProject/type/templates/Index.html">
+    <entry file="file://$PROJECT_DIR$/TestProject/type/templates/1032.html" />
+    <entry file="file://$PROJECT_DIR$/TestProject/type/templates/qweqwe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="162">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestProject/type/templates/1032.html" />
     <entry file="file://$PROJECT_DIR$/TestProject/type/templates/123123.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestProject/type/templates/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
         </state>
       </provider>
     </entry>
