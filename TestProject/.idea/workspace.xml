@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="936ec572-db2d-40d9-8424-8d70abe6f246" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e39ebc08-9f5c-452f-bc4a-a0da41383b18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goods/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/type/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="936ec572-db2d-40d9-8424-8d70abe6f246" name="Default Changelist" comment="添加数据库  和数据迁移">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e39ebc08-9f5c-452f-bc4a-a0da41383b18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e39ebc08-9f5c-452f-bc4a-a0da41383b18.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goods/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/goods/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goods/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/type/migrations/0001_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/type/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/type/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/type/templates/123123.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/type/templates/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/type/templates/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/type/templates/fjdsifhsidf.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/type/templates/qweqwe.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,18 +58,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/type/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="90">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e39ebc08-9f5c-452f-bc4a-a0da41383b18/console.sql">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -106,6 +90,7 @@
         <option value="$PROJECT_DIR$/TestProject/settings.py" />
         <option value="$PROJECT_DIR$/TestProject/__init__.py" />
         <option value="$PROJECT_DIR$/goods/models.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/type/models.py" />
       </list>
     </option>
@@ -173,6 +158,7 @@
     <property name="DatabaseDriversLRU" value="sqlite&#10;mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Clone" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -228,7 +214,7 @@
       <workItem from="1545879714394" duration="5861000" />
       <workItem from="1545985875504" duration="1268000" />
       <workItem from="1546074947218" duration="682000" />
-      <workItem from="1546132201018" duration="2834000" />
+      <workItem from="1546132201018" duration="3638000" />
     </task>
     <task id="LOCAL-00001" summary="添加类型应用">
       <created>1545879777488</created>
@@ -244,11 +230,27 @@
       <option name="project" value="LOCAL" />
       <updated>1545985923780</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加数据库  和数据迁移">
+      <created>1546136341005</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1546136341005</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11699000" />
+    <option name="totallyTimeSpent" value="12503000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -256,16 +258,17 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15900277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="manage.py@TestProject" order="0" visible="true" weight="0.33945945" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32972974" />
+      <window_info anchor="bottom" id="manage.py@TestProject" order="0" visible="true" weight="0.3718919" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Run" order="3" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32972974" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32972974" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32972974" />
@@ -321,15 +324,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/type/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e39ebc08-9f5c-452f-bc4a-a0da41383b18/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://e39ebc08-9f5c-452f-bc4a-a0da41383b18/schema/goodsManage/table/goods_goods">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e39ebc08-9f5c-452f-bc4a-a0da41383b18/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="das://e39ebc08-9f5c-452f-bc4a-a0da41383b18/schema/goodsManage/table/type_goodstype">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/type/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
